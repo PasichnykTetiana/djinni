@@ -1,0 +1,28 @@
+@import 'variables.scss';
+:root {
+  --bs-navbar-active-color: $dark-color;
+}
+$input-height: 40px;
+$input-border-radius: 20px;
+$input-bg: $light-gray;
+$input-height-lg: 40px;
+$input-border-width: 0;
+$primary: $orange;
+$btn-border-radius: 8px;
+$btn-border-radius-sm: 8px;
+$text-muted: $custom-gray;
+$card-border-color: $border-color;
+$enable-negative-margins: true;
+$secondary: $border-color;
+$btn-font-weight: bold;
+$btn-border-width: 0;
+$btn-font-size-sm: 1rem;
+$input-focus-box-shadow: none;
+$list-group-border-width: 0;
+$headings-color: $dark;
+$card-border-radius: 8px;
+  //$text-muted:
+
+
+  //$btn-padding-y-md: 7px;
+//$btn-padding-x-md: 16px;

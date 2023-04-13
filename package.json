@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test for Djinni",
+  "main": "index.js",
+  "author": "Tetiana Pasichnyk",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "yarn vite serve",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.8.7",
+    "sass": "^1.61.0",
+    "vite": "^4.2.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "bootstrap": "5.3.0-alpha3"
+  }
+}
