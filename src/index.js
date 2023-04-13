@@ -1,3 +1,3 @@
-import './styles/main.scss'
-import './js/read-more'
-import './js/infinite-scroll'
+import "./styles/main.scss";
+import "./js/read-more";
+import "./js/infinite-scroll";

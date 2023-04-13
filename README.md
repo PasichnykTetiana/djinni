@@ -1,0 +1,1 @@
+This application leverages Vanilla JavaScript, HTML, Bootstrap and SASS for styling. The application was built using the Vite bundler.

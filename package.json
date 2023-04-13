@@ -8,7 +8,10 @@
   "private": true,
   "scripts": {
     "start": "yarn vite serve",
-    "build": "vite build"
+    "build": "vite build",
+    "fix": "yarn prettier --write src",
+    "prettier": "node_modules/.bin/prettier",
+    "lint:scripts": "node_modules/.bin/eslint"
   },
   "devDependencies": {
     "eslint": "^8.38.0",

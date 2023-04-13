@@ -1,27 +1,27 @@
-@import 'custom.scss';
-@import 'variables.scss';
-@import 'fonts.scss';
+@import "custom.scss";
+@import "variables.scss";
+@import "fonts.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
 
 body {
-  font-family: 'Commissioner', sans-serif;
+  font-family: "Commissioner", sans-serif;
   .container {
     max-width: 1140px;
 
     nav {
-        .input-group-text {
-          padding: 11px 0 13px 1rem;
-          background: $light-gray;
-        }
+      .input-group-text {
+        padding: 11px 0 13px 1rem;
+        background: $light-gray;
+      }
     }
 
     .navbar-nav {
       flex-direction: row;
     }
     .form-control {
-      height: 40px!important;
+      height: 40px !important;
     }
   }
 
@@ -39,7 +39,7 @@ body {
       position: relative;
     }
     .nav-link.active::after {
-      content: '';
+      content: "";
       display: block;
       position: absolute;
       border-bottom: 2px solid $orange;
@@ -49,7 +49,7 @@ body {
   }
 
   .language::after {
-    content: url('src/assets/arrow.svg');
+    content: url("src/assets/arrow.svg");
     border: none;
     margin: 0;
     width: 24px;
@@ -58,11 +58,11 @@ body {
     transition: transform 0.5s ease;
     transform: rotate(180deg) translate(0, 6px);
   }
-  .animation, .text-animation{
+  .animation,
+  .text-animation {
     animation-fill-mode: both;
     opacity: 0;
     animation-name: fade-in;
-
   }
   .animation {
     animation-duration: 5s;
@@ -82,17 +82,20 @@ body {
 
   .btn {
     &-primary {
-      --#{$prefix}btn-active-color:  #{white};
+      --#{$prefix}btn-active-color: #{white};
     }
 
-    &-primary, &-primary:hover {
+    &-primary,
+    &-primary:hover {
       color: $white;
     }
 
     &-lg {
-      padding: 7px 0  9px 15px;
+      padding: 7px 0 9px 15px;
     }
-     &-md, &-sm, &-dark {
+    &-md,
+    &-sm,
+    &-dark {
       padding: 7px 16px 9px;
     }
 
@@ -113,4 +116,3 @@ body {
     }
   }
 }
-
