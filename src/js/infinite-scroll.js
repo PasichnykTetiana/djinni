@@ -46,10 +46,6 @@ function infiniteScroll() {
       p.className = "text-description card-text text-muted mb-0";
       p.innerHTML =
         "Here goes some sample, example text that is relatively short.";
-      let btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "show-more btn btn-sm pt-2 position-absolute ps-0";
-      btn.innerHTML = "Show more...";
       let row = document.createElement("div");
       row.className = "row mx-n4 px-0 border-top";
       let col = document.createElement("div");
@@ -65,7 +61,6 @@ function infiniteScroll() {
 
       mb5.appendChild(h5);
       mb5.appendChild(p);
-      mb5.appendChild(btn);
       cardBody.appendChild(mb5);
       col.appendChild(saveBtn);
       col.appendChild(shareBtn);

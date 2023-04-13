@@ -10,7 +10,6 @@ function truncateText() {
 
     if (actualHeight > maxHeight) {
       const words = fullText.split(" ");
-      let lineCount = 0;
       let truncatedText = "";
       let RestOfTheText = "";
 
@@ -20,7 +19,6 @@ function truncateText() {
         tempDiv.style.visibility = "hidden";
         tempDiv.style.position = "absolute";
         tempDiv.style.width = getComputedStyle(text).width;
-        // tempDiv.style.top = '-9999px';
         tempDiv.innerHTML = line;
         document.body.appendChild(tempDiv);
         const tempHeight = tempDiv.offsetHeight;
@@ -31,7 +29,6 @@ function truncateText() {
         }
 
         truncatedText = line;
-        lineCount++;
       }
       RestOfTheText = fullText.substring(truncatedText.length);
       console.log(truncatedText);
@@ -46,8 +43,6 @@ function truncateText() {
         showMoreButtons[index].style.display = "none";
       });
     } else {
-      console.log(fullText);
-
       showMoreButtons[index].style.display = "none";
     }
   });

@@ -9,7 +9,7 @@
   "scripts": {
     "start": "yarn vite serve",
     "build": "vite build",
-    "fix": "yarn prettier --write src",
+    "fix": "yarn prettier --write src && yarn lint:scripts . --fix src/js",
     "prettier": "node_modules/.bin/prettier",
     "lint:scripts": "node_modules/.bin/eslint"
   },
