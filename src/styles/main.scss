@@ -9,20 +9,14 @@ body {
   font-family: "Commissioner", sans-serif;
   .container {
     max-width: 1140px;
+  }
+  .input-group-text {
+    padding: 11px 0 13px 1rem;
+    background: $light-gray;
+  }
 
-    nav {
-      .input-group-text {
-        padding: 11px 0 13px 1rem;
-        background: $light-gray;
-      }
-    }
-
-    .navbar-nav {
-      flex-direction: row;
-    }
-    .form-control {
-      height: 40px !important;
-    }
+  .navbar-nav {
+    flex-direction: row;
   }
 
   .dropdown {
@@ -49,7 +43,7 @@ body {
   }
 
   .language::after {
-    content: url("src/assets/arrow.svg");
+    content: url("djinni/src/assets/arrow.svg");
     border: none;
     margin: 0;
     width: 24px;
